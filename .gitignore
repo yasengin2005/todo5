@@ -1,0 +1,19 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+/node_modules
+/.pnp
+.pnp.js
+/coverage
+
+DS_DStore
+.env.local
+.env.development.local
+.env.test.local
+.env.production.localnpm-debug-log*
+yarn-debug-log*
+yarn-error-log*
+.env
